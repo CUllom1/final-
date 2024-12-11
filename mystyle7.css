@@ -1,0 +1,125 @@
+<style> 
+{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .navbar {
+            position: fixed;
+            top: 0;
+            right: 0;
+            background-color: #333;
+            padding: 10px;
+            border-radius: 0 0 0 10px;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+            font-size: 16px;
+        }
+        .navbar a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+        }
+        .content {
+            margin-top: 50px; /*  to prevent content from hiding behind the navbar */
+            padding: 20px;
+        }
+       
+
+h1 {text-align: center;} 
+
+.center-i {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 20px;
+} 
+.center {
+    text-align: center;
+    max-width:250px ;
+}
+.center img {
+    height:20em;
+    margin-bottom:20px;
+}
+
+ .image-container {
+            width: fit-content; /* Shrinks the container to fit the image */
+            margin: 0 auto; /* Centers the container horizontally */
+        }
+        .image-container img {
+            display: block; /* Ensures the image behaves as a block-level element */
+            max-width: 100%; /* Ensure the image is responsive */
+            height: auto;
+        }
+.box {
+            float: left;
+            margin-right: 10px; /*  adds space to the right of the image */
+        }
+        /*  To clear the float and avoid layout issues */
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+      /* Dropdown Button */
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+ footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+
+        }
+  .right {
+    float: right;
+    margin-left: 10px; /* Optional: Adds space between the image and text */
+  }
+
+        </style> 
